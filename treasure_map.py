@@ -23,4 +23,8 @@ selected_row = map[second_number - 1]
 selected_row[first_number - 1] = "X"
 ############################################
 
+##############Or#############################
+map[second_number - 1][first_number -1] = "X"
+############################################
+
 print(f"{row1}\n{row2}\n{row3}")
